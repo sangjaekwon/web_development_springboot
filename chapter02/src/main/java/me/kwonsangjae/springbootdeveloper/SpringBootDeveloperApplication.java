@@ -1,4 +1,4 @@
-package me.kwonsangjae.kwonsangjae.springbootdeveloper;
+package me.kwonsangjae.springbootdeveloper;
 
 /*
     New proejct 생성시 주의점:
@@ -102,10 +102,22 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
                 코드를 동일하게 작성 가능
                 
 3. 스프링 부트 3 둘러보기
-    첫 번째 스프링 부트 3 예제 만들기
-        01 단계 -
-            springbootdeveloper 패키지에
-            TestCo
+    스프링 부트 스타터 살펴보기
+        스프링 부트 스타터는 의존성이 모여있는 그룹에 해다앟ㅁ
+        스타터를 사용할 경우 필요한 기능을 간편하게 설정 가능
+        스타터의 명명 규칙
+            spring-boot-starter-{작업유형}
+
+        자주 사용하는 스타터의 예시
+        spring-boot-starter-web: Spring MVC를 사용해 RESTful 웹 서비스를 개발할 때 필요한 의존성 모음
+        spring-boot-starter-test: 스프링 애플리케이션을 테스트하기 위해 필요한 의존성 모음
+        spring-boot-starter-validation: 유효성 검사를 위해 필요한 의존성 모음
+        spring-boot-starter-actuator: 모니터링을 위해 애플리케이션에서 제공하는 다양한 정보를
+            제공하기 쉽게 하는 의존성 모음
+        spring-boot-starter-jpa: ORM을 사용하기 위한 인터페이스의 모음인 JPA를 더 쉽게 사용하기 위한 의존성 모음
+
+    스프링 부트 3와 자바 버전
+        스프링 부트 3는 자바 17 버전 이후부터 사용 가능
 
 
 
