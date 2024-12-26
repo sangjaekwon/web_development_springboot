@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class TestController {
@@ -12,8 +13,8 @@ public class TestController {
     TestService testService;
 
     @GetMapping("/test")
-    public ArrayList<Member> getAllMembers() {
-        ArrayList<Member> members = testService.getAllMembers();
+    public List<Member> getAllMembers() {
+        List<Member> members = testService.getAllMembers();
         return members;
     }
     

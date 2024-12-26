@@ -80,8 +80,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
         4. 매핑 작업에는 '인터페이스' 파일이 필요. MemberRepository 인터페이스를 같은 위치에 생성하세요.
 
 
-    작동을 확인해보겠습니다.
 
+
+HTTP 요청 -> TestController <-> TestService <-> MemberRepository <-> Database
+url:/test -> 프레젠테이션 계층       비즈니스계층         퍼시스턴스계층
  */
 @SpringBootApplication
 public class SpringBootDeveloperApplication {
